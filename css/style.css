@@ -1,6 +1,70 @@
 body {
   font-family: "Outfit", sans-serif;
   background-color: hsl(217deg, 54%, 11%);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card1 {
+  max-width: 375px;
+  background-color: hsl(216deg, 50%, 16%);
+  color: white;
+}
+
+.card__image img {
+  border-radius: 16px;
+}
+
+.description {
+  font-size: 300;
+  color: hsl(215deg, 51%, 70%);
+  margin: 1rem 0;
+}
+
+.card__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line {
+  color: hsl(215deg, 32%, 27%);
+  margin: 8px 0 16px 0;
+}
+
+.card__info-value,
+.card__info-days {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  gap: 4px;
+}
+
+.card__info-days {
+  color: hsl(215deg, 51%, 70%);
+}
+
+.card__people {
+  display: flex;
+  align-items: center;
+}
+
+.card__people img {
+  width: 50px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.card__people p {
+  margin: 0;
+}
+
+.card__people p span {
+  color: hsl(215deg, 51%, 70%);
 }
 
 /*# sourceMappingURL=style.css.map */
